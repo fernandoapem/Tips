@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Improved IU and styling.
+- [x] Improved UI and styling.
 
 ## Video Walkthrough
 
@@ -40,7 +40,7 @@ Implementing the push from the main view to SettingsControlView
 
 ## Credits
 
-List an 3rd party libraries, icons, graphics, or other assets you used in your app.
+
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
 
