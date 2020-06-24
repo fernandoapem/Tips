@@ -38,11 +38,7 @@ Managing the behavior of the elements in a view(buttons, lables) when trying to 
 
 Implementing the push from the main view to SettingsControlView
 
-## Credits
 
-
-
-- [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
 
 ## License
 
