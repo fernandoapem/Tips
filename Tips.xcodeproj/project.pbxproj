@@ -16,6 +16,7 @@
 		ED49822424A2A1F40042CBDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED49822324A2A1F40042CBDA /* main.m */; };
 		ED49822E24A2A1F40042CBDA /* TipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED49822D24A2A1F40042CBDA /* TipsTests.m */; };
 		ED49823924A2A1F40042CBDA /* TipsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED49823824A2A1F40042CBDA /* TipsUITests.m */; };
+		ED49824824A2CB700042CBDA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED49824724A2CB700042CBDA /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		ED49823424A2A1F40042CBDA /* TipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED49823824A2A1F40042CBDA /* TipsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsUITests.m; sourceTree = "<group>"; };
 		ED49823A24A2A1F40042CBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED49824624A2CB700042CBDA /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		ED49824724A2CB700042CBDA /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				ED49821724A2A1F30042CBDA /* ViewController.h */,
 				ED49821824A2A1F30042CBDA /* ViewController.m */,
 				ED49821A24A2A1F30042CBDA /* Main.storyboard */,
+				ED49824624A2CB700042CBDA /* SettingsViewController.h */,
+				ED49824724A2CB700042CBDA /* SettingsViewController.m */,
 				ED49821D24A2A1F40042CBDA /* Assets.xcassets */,
 				ED49821F24A2A1F40042CBDA /* LaunchScreen.storyboard */,
 				ED49822224A2A1F40042CBDA /* Info.plist */,
@@ -269,6 +274,7 @@
 			files = (
 				ED49821924A2A1F30042CBDA /* ViewController.m in Sources */,
 				ED49821324A2A1F30042CBDA /* AppDelegate.m in Sources */,
+				ED49824824A2CB700042CBDA /* SettingsViewController.m in Sources */,
 				ED49822424A2A1F40042CBDA /* main.m in Sources */,
 				ED49821624A2A1F30042CBDA /* SceneDelegate.m in Sources */,
 			);
@@ -440,12 +446,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJ7DRG669N;
 				INFOPLIST_FILE = Tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fernandoa.Tips;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandoa.tippy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,12 +463,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJ7DRG669N;
 				INFOPLIST_FILE = Tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fernandoa.Tips;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernandoa.tippy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
