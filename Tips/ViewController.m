@@ -50,18 +50,7 @@
     
     
 }
-- (IBAction)onEditEnd:(id)sender {
-    /*CGRect newFrame = self.billField.frame;
-    newFrame.origin.y -= 35;
-    
-    [UIView animateWithDuration:0.2 animations:^{
-       self.billField.frame = newFrame;
-    }];*/
- 
-    /*[UIView animateWithDuration:1 animations:^{
-    self.tipLabel.alpha = 1;
-    }];*/
-}
+
 
 - (IBAction)onEditBegin:(id)sender {
 
@@ -81,9 +70,7 @@
     self.tiLable.frame = CGRectMake(self.tiLable.frame.origin.x, self.tiLable.frame.origin.y - 180, self.tiLable.frame.size.width, self.tiLable.frame.size.height);
         
     }];
-   /* [UIView animateWithDuration:1 animations:^{
-    self.tipLabel.alpha = 0;
-    }];*/
+ 
 }
 
 @end
