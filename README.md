@@ -1,4 +1,3 @@
-# Tips
 
 **Tips* is a tip calculator application for iOS.
 
@@ -33,8 +32,10 @@ Here's a walkthrough of implemented user stories:
 GIF created with [Recordit](https://recordit.co/).
 
 ## Notes
+Challenges:
 
 Managing the behavior of the elements in a view(buttons, lables) when trying to animate them.
+
 Implementing the push from the main view to SettingsControlView
 
 ## Credits
