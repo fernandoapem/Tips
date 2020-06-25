@@ -28,7 +28,6 @@
     // Do any additional setup after loading the view.
     [self.billField becomeFirstResponder];
     
-
 }
 
 - (IBAction)onTap:(id)sender {
@@ -47,8 +46,6 @@
  
     self.tipLabel.text = [NSString stringWithFormat:@"$%.2f",tip];
     self.totalLabel.text = [NSString stringWithFormat:@"$%.2f",total];
-    
-    
 }
 
 
@@ -71,6 +68,25 @@
         
     }];
  
+}
+
+- (IBAction)onEditEnd:(id)sender {
+     [UIView animateWithDuration:1 animations:^{
+      self.totalLabel.frame = CGRectMake(self.totalLabel.frame.origin.x, self.totalLabel.frame.origin.y + 150, self.totalLabel.frame.size.width, self.totalLabel.frame.size.height);
+          
+      }];
+    [UIView animateWithDuration:1 animations:^{
+    self.tLable.frame = CGRectMake(self.tLable.frame.origin.x, self.tLable.frame.origin.y + 150, self.tLable.frame.size.width, self.tLable.frame.size.height);
+        
+    }];
+       [UIView animateWithDuration:1 animations:^{
+        self.tipLabel.frame = CGRectMake(self.tipLabel.frame.origin.x, self.tipLabel.frame.origin.y + 180, self.tipLabel.frame.size.width, self.tipLabel.frame.size.height);
+            
+        }];
+      [UIView animateWithDuration:1 animations:^{
+      self.tiLable.frame = CGRectMake(self.tiLable.frame.origin.x, self.tiLable.frame.origin.y + 180, self.tiLable.frame.size.width, self.tiLable.frame.size.height);
+          
+      }];
 }
 
 @end
